@@ -1,29 +1,6 @@
-# inter-tab-communicator
+# broadcast-master-slave
 
-## Project setup
-```
-npm install
-```
+This project is Proof-of-concept which uses Browser's BroadcastChannel API
+to create one source-of-truth among opened tabs...
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+We created this project because we need to maintain opened network streams (to prevent redundant opened connections)
