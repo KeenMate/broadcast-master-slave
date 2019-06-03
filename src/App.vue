@@ -22,7 +22,7 @@
 
 			isMaster: false,
 
-			artifactId: (Math.random() * 100).toFixed(0),
+			artifactId: new Date().getTime(),
 
 			channel: new BroadcastChannel('MyChannel'),
 
@@ -58,7 +58,7 @@
 
 					this.loadResources()
 				}
-			}, 20)
+			}, 80)
 
 			window.addEventListener('beforeunload', ev => {
 				console.log(ev)
